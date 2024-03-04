@@ -1,19 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="48519594-71e7-4f33-a1ab-b3da2bca48f1" name="Changes" comment="" />
+    <list default="true" id="48519594-71e7-4f33-a1ab-b3da2bca48f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/globalStyles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/globalStyles/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/globalStyles/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/elements/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layouts/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modules/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modules/Header/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/lang.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/lang.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/modals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useLang.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Rostelecom-Basis-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Rostelecom-Basis-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Rostelecom-Basis-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-bags-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-bags-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-bags-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-bags-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-headdress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/accessories/accessories-umbrella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/black-t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brands-life.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart-checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/categories-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/categories-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/categories-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/categories-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/checked-favorite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/close-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-hoodie-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-long-sleeves-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-long-sleeves-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-outerwear-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-outerwear-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-t-shirts-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clothes/cloth-t-shirts-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/comparison.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/empty-cart-page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/empty-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favorites-empty-page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favorites.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gray-ellipse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/green-ellipse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-bg-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-line-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-line-tiny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/not-found.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/orange-t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/plus-big.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/popup-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/quick-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/red-ellipse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/simple-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/subtitle-rect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/violet-t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/white-ellipse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ytb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/translations/translations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globalStyles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dCiaP1iZ3VnC3Jt7O7egQCoLG6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -22,12 +130,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "eslint.code.style.apply.dismiss": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ASUS\\Desktop\\shop\\node_modules\\prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "C:\\Users\\ASUS\\Desktop\\shop\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\shop" />
+      <recent name="C:\Users\ASUS\Desktop\shop\app" />
+      <recent name="C:\Users\ASUS\Desktop\shop\app\globalStyles" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,10 +169,19 @@
       <option name="presentableId" value="Default" />
       <updated>1709518524140</updated>
       <workItem from="1709518525775" duration="53000" />
+      <workItem from="1709518884333" duration="244000" />
+      <workItem from="1709519141458" duration="625000" />
+      <workItem from="1709519780594" duration="43000" />
+      <workItem from="1709519836319" duration="735000" />
+      <workItem from="1709520803027" duration="88000" />
+      <workItem from="1709520899125" duration="7641000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
